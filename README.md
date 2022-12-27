@@ -4,7 +4,9 @@ setup nginx to deploy your node app with domain instead of server ip and port . 
 
 # Create nginx configuration file for your domain.
  1- type in terminal this command and remember to replace "your_domain" with your domain like "mawjood.appsiraq.com"
+ ```
         $ sudo nano /etc/nginx/conf.d/mawjood.appsiraq.com.conf
+        ```
 
     2- copy and paste this snippet and remember to replace "your_domain" with your own and port "3001"
         server {
